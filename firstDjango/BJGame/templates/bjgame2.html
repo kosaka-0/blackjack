@@ -1,19 +1,19 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Black Jack Gameで遊ぼう</title>
     <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
     <script src="{% static 'js/bootstrap.js' %}"></script>
     <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
-  </head>
-  <body>
+</head>
+<body>
     <nav class="navbar navbar-inverse">
         <div class="navbar-header">
             <a class="nav navbar-brand" href="../game/">Black Jack Game</a>
-           
+
         </div>
             <ul class="nav navbar-nav">
                 <li><a href="../game/"><i class="glyphicon glyphicon-play"></i>ゲーム</a></li>
@@ -22,9 +22,9 @@
     </nav>
         <div class="msg">
         <div class="panel panel-default">
-                    	<div class="panel-body">
-                    		<B>{{ msg }}</B>
-                    	</div>
+            <div class="panel-body">
+                <B>{{ msg }}</B>
+           	</div>
         </div>
         </div>
         <div style="background-image: url({% static 'python_bk_s_new.png' %});
